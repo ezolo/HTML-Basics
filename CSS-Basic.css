@@ -1,0 +1,16 @@
+body {
+  background: Gainsboro;
+  padding: 150px;
+}
+
+
+h2 {
+  text-align: center;
+  color: MediumSeaGreen;
+  font-family: "Lucida Console", monospace;
+}
+form {
+	text-align: center;
+	color: DimGrey;
+	font-family: "Lucida Console", monospace;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script>
+function valueDisplay(){
+var x1=document.getElementById('fname').value;
+var x2= document.getElementById('lname').value;
+var x3= document.getElementById('ename').value;
+alert("\n First Name: "+ x1+"\n Last Name: "+x2+"\n Email: "+x3);
+}
+</script>
+<body>
+<head>
+<title>Customer Information</title>
+<link href="CSS-Basic.css" rel="stylesheet" type="text/css"/>
+</head>
+<h2>〰️Customer Information〰️</h2>
+
+<form>
+<label>First name:</label><br><input type="text" id="fname" name="fname"><br><br>
+<label>Last name:</label><br><input type="text" id="lname" name="lname"><br><br>
+<label>E-mail:</label><br><input type="text" id="ename" name="ename"><br><br>
+<input type="submit" value="Submit" onclick="valueDisplay()">
+</form>
+
+</body>
+</html> 
